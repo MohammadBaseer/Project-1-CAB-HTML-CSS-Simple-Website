@@ -1,8 +1,8 @@
-* {
+/* * {
   padding: 0px;
   margin: 0px;
   border: solid 1px;
-}
+} */
 .grid {
   /* border:  solid; */
 
@@ -26,16 +26,16 @@
 
 .box-2 {
   grid-area: ads;
-  outline: solid;
+  /* outline: solid; */
 }
 
 .box-3 {
   grid-area: p-item;
-  outline: solid;
+  /* outline: solid; */
 }
 
 .p-grid {
-  border: solid red;
+  /* border: solid red; */
 }
 
 .p-grid-item {
