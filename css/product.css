@@ -1,0 +1,64 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  border: solid 1px;
+}
+.grid {
+  /* border:  solid; */
+
+  /* background-color: lightblue; */
+  /* height: 600px;
+        width: 600px; */
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 200px 200px 200px 200px; */
+  grid-template-areas:
+    "nav nav nav nav"
+    "ads p-item p-item p-item"
+    "map map map map"
+    "footer footer footer footer";
+}
+
+.box-1 {
+  grid-area: nav;
+  /* background-color: red; */
+}
+
+.box-2 {
+  grid-area: ads;
+  outline: solid;
+}
+
+.box-3 {
+  grid-area: p-item;
+  outline: solid;
+}
+
+.p-grid {
+  border: solid red;
+}
+
+.p-grid-item {
+  /* height: 317px; */
+  width: 24%;
+  display: inline-block;
+  /* border: solid green; */
+}
+.p-item-title {
+  text-align: left !important;
+}
+.p-item-title:not(.pra, .shipping) {
+  display: inline-block;
+  margin: 5px;
+}
+.price {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.box-4 {
+  grid-area: map;
+}
+.box-5 {
+  grid-area: footer;
+}

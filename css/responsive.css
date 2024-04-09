@@ -1,0 +1,13 @@
+.container > .row ul {
+  padding-bottom: 0px;
+}
+
+.catagories-menu {
+  display: none;
+  transform: 3;
+}
+
+/*     replace this class with  Javascript ".catagories-menu " */
+.catagories-menu-block {
+  display: block;
+}

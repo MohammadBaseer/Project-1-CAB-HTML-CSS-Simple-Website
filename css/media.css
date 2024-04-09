@@ -1,0 +1,130 @@
+@media only screen and (max-width: 800px) {
+  /* body {
+    background-color: lightblue;
+  } */
+  .head-logo > a > .logo-img {
+    width: 100% !important;
+  }
+  .container > .row {
+    display: grid;
+  }
+  .container > .row > .sm-3,
+  .sm-7,
+  .sm-8,
+  .sm-10 {
+    width: 99%;
+    padding: 0px;
+    margin: 0px;
+    margin: auto;
+  }
+
+  .container > .row > .sm-7 > form > input {
+    width: 74%;
+    /* padding: 0px; */
+    margin: 0px;
+  }
+  .container > .row > .sm-7 > form {
+    display: flex;
+    justify-content: center;
+  }
+  .container > .row > .sm-7 > .sm-10 {
+    width: 98%;
+    margin: auto;
+    padding: 0px;
+  }
+  .block1 {
+    padding: 1px;
+  }
+  .random {
+    text-align: center;
+  }
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .row {
+    display: block;
+  }
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .head-logo > a > .logo-img {
+    width: 50%;
+  }
+  .main-container1 {
+    width: 95%;
+  }
+  .main-box {
+    display: block;
+  }
+  .sub-main-box {
+    width: 100%;
+  }
+  .con-box {
+    text-align: center;
+    display: block;
+    border: none;
+  }
+  .con-box > .sm-5 {
+    width: 100%;
+    text-align-last: center;
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 1900px) {
+  .main-container1 {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .btn1 {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .random-head {
+    font-size: 40px;
+    padding: 10px;
+  }
+  .pragraph {
+    font-size: 40px;
+  }
+  .random-title {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .random-head {
+    font-size: 40px;
+    padding: 10px;
+  }
+  .pragraph {
+    font-size: 40px;
+  }
+  .random-title {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 574px) {
+  .footer-col {
+    width: 100%;
+  }
+}
