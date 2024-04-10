@@ -263,12 +263,10 @@ p {
 .card {
   width: 300px;
   margin: 15px;
-  outline: solid 1px;
 }
 .card__image {
   width: 100%;
-  /* height: auto; */
-  height: 220px;
+  height: 250px;
 }
 .card__content {
   padding: 15px;
@@ -277,19 +275,6 @@ p {
 .box {
   width: 30%;
   padding: 10px;
-}
-
-@media (max-width: 600px) {
-  .card {
-    width: 100%;
-    margin: 10px 0;
-  }
-}
-@media (min-width: 601px) and (max-width: 900px) {
-  .card {
-    width: 48%;
-    margin: 1%;
-  }
 }
 
 .btn2 {
@@ -442,7 +427,6 @@ ul {
   padding: 10px;
 }
 .item-box > label {
-  /* min-width: 30%; */
   min-width: 33%;
   font-weight: 900;
 }
